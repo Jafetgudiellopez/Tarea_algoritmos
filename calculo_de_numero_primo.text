@@ -1,0 +1,20 @@
+Algoritmo calculo_de_numero_primo
+	definir numero1, bucle Como Enteros
+	escribir "Ingrese un numero para determinar si es primo o no" 
+	leer numero1
+	bucle = 1 
+	contador = 0 
+	mientras bucle <= numero1 Hacer
+		si numero1 mod bucle == 0 Entonces
+			contador = contador +1 
+		FinSi
+		bucle = bucle+1 
+	FinMientras
+	
+	si contador == 2 entonces 
+		escribir " El Numero " , numero1 , " Es Primo "
+	sino 
+		escribir " El Numero " , numero1 , " No Es Primo"
+	FinSi
+
+FinAlgoritmo
